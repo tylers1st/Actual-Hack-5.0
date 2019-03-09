@@ -1,3 +1,12 @@
+/*
+* Collaborators : Karthik Reddy Pagilla,  Izzy Henrichsen, Tyler Furst, Theo Joseph.
+* Date : 03/08 /2019
+* This program has been debugged 
+*/
+
+
+
+
 typedef enum {
   TWO_PLAYER        = 1,
   ONE_PLAYER_RANDOM = 2,
