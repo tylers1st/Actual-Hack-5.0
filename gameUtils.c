@@ -60,7 +60,7 @@ void printBoard(Move **board) {
       }
     }
     printf("\n");
-    if(i<2) { //Bug 4
+    if(i<2) { // Bug changed 3 to 2
       printf("  ------+-------+------\n");
     }
   }
@@ -90,7 +90,7 @@ Status getStatus(Move **board) {
   Status s = TIE;
 
   if( //rows
-      (board[0][0] == board[0][1] && board[0][1] == board[0][2] && board[0][0] == X) || // Bug 1
+      (board[0][0] == board[0][1] && board[0][1] == board[0][2] && board[0][0] == X) || // Bug: changed each array element from looking at one element to each element in thsi row
       (board[1][0] == board[1][1] && board[1][1] == board[1][2] && board[1][0] == X) ||
       (board[2][0] == board[2][1] && board[2][1] == board[2][2] && board[2][0] == X) ||
       //cols
