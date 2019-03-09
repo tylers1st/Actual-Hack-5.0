@@ -23,7 +23,7 @@ void userMove(Move **board, Move player) {
       printf("Error: that choice was already made.\n");
     } else {
       //we map 1-9 to [0][0] thru [2][2]:
-      board[(input-1)/3][(input-1)%3] = player; // Added %3
+      board[(input-1)/3][(input-1)%3] = player; // Bug: Added %3
       return;
     }
     input = 0;
