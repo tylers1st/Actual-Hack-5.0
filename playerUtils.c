@@ -1,6 +1,6 @@
 /*
-* Collaborators : Karthik Reddy Pagilla,  Izzy Henrichsen, Tyler Furst, Theo Joseph.
-* Date : 03/08 /2019
+* Collaborators : Karthik Reddy Pagilla,  Izzy Hinrichsen, Tyler Furst, Theo Joseph.
+* Date : 03/08/2019
 * This program has been debugged 
 */
 
